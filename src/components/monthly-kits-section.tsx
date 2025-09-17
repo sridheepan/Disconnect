@@ -63,11 +63,9 @@ export function MonthlyKitsSection() {
               <CardHeader className='pb-4'>
                 <div className='relative'>
                   <div className='bg-gradient-to-br from-brand-coral/10 to-brand-mint/10 rounded-2xl flex items-center justify-center mb-4'>
-                    <Image
+                    <img
                       src={kit.image}
                       alt={kit.title}
-                      width={100}
-                      height={100}
                       className='w-full h-full object-contain rounded-2xl'
                     />
                   </div>
