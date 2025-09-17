@@ -23,11 +23,20 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@/components/*": ["./src/components/*"],
-      "@/lib/*": ["./src/lib/*"],
-      "@/types/*": ["./src/types/*"]
-    }
+      "@/*": [
+        "./src/*"
+      ],
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/lib/*": [
+        "./src/lib/*"
+      ],
+      "@/types/*": [
+        "./src/types/*"
+      ]
+    },
+    "target": "ES2017"
   },
   "include": [
     "next-env.d.ts",
