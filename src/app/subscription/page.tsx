@@ -192,7 +192,7 @@ export default function SubscriptionPage() {
               </AccordionTrigger>
               <AccordionContent>
                 Absolutely! You can upgrade or downgrade your plan at any time. When upgrading,
-                you'll get immediate access to premium features. When downgrading, changes take
+                you&apos;ll get immediate access to premium features. When downgrading, changes take
                 effect at your next billing cycle.
               </AccordionContent>
             </AccordionItem>
@@ -200,8 +200,8 @@ export default function SubscriptionPage() {
             <AccordionItem value='item-4' className='border rounded-lg px-6'>
               <AccordionTrigger className='text-left'>Do you offer refunds?</AccordionTrigger>
               <AccordionContent>
-                We offer a 30-day money-back guarantee for all new subscriptions. If you're not
-                satisfied with our service within the first 30 days, we'll provide a full refund, no
+                We offer a 30-day money-back guarantee for all new subscriptions. If you&apos;re not
+                satisfied with our service within the first 30 days, we&apos;ll provide a full refund, no
                 questions asked.
               </AccordionContent>
             </AccordionItem>

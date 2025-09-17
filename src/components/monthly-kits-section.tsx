@@ -49,7 +49,7 @@ export function MonthlyKitsSection() {
     <section className='py-20 bg-background'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center space-y-4 mb-16'>
-          <h2 className='text-3xl lg:text-4xl font-bold text-foreground'>This Month's Kits</h2>
+          <h2 className='text-3xl lg:text-4xl font-bold text-foreground'>This Month&apos;s Kits</h2>
           <p className='text-lg text-muted-foreground max-w-2xl mx-auto'>
             Carefully curated projects to spark your creativity
           </p>
@@ -63,7 +63,7 @@ export function MonthlyKitsSection() {
               <CardHeader className='pb-4'>
                 <div className='relative'>
                   <div className='bg-gradient-to-br from-brand-coral/10 to-brand-mint/10 rounded-2xl flex items-center justify-center mb-4'>
-                    <img
+                    <Image
                       src={kit.image}
                       alt={kit.title}
                       width={100}
