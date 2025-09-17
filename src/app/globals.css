@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light mode - Brand Colors */
+    --background: 0 0% 100%; /* #F7F7F7 - Light background */
+    --foreground: 0 0% 3.9%; /* #2D3436 - Text, contrast */
+    --card: 0 0% 100%; /* White cards */
+    --card-foreground: 0 0% 3.9%; /* #2D3436 */
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%; /* #FF6B6B - Coral Red - brand, CTAs */
+    --primary-foreground: 0 0% 98%; /* White text on coral */
+    --secondary: 0 0% 96.1%; /* #FFD93D - Warm Yellow - highlights */
+    --secondary-foreground: 0 0% 9%; /* Dark text on yellow */
+    --muted: 0 0% 96.1%; /* Light gray for muted elements */
+    --muted-foreground: 0 0% 45.1%; /* Muted text */
+    --accent: 0 0% 96.1%; /* #6BCB77 - Mint Green - positive accents */
+    --accent-foreground: 0 0% 9%; /* White text on mint */
+    --destructive: 0 84.2% 60.2%; /* Red for destructive actions */
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%; /* Light border */
+    --input: 0 0% 89.8%; /* Input border */
+    --ring: 0 0% 3.9%; /* Focus ring matches primary */
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    /* Dark mode - Brand Colors */
+    --background: 0 0% 3.9%; /* #1E1E1E - Dark background */
+    --foreground: 0 0% 98%; /* #FAFAFA - Light text */
+    --card: 0 0% 3.9%; /* #27272A - Dark cards */
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%; /* #FF6B6B - Keep coral red vibrant */
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%; /* #FFD93D - Keep warm yellow */
+    --secondary-foreground: 0 0% 98%; /* Dark text on yellow */
+    --muted: 0 0% 14.9%; /* #3F3F46 - Dark muted */
+    --muted-foreground: 0 0% 63.9%; /* #A1A1AA - Muted text */
+    --accent: 0 0% 14.9%; /* #6BCB77 - Keep mint green vibrant */
+    --accent-foreground: 0 0% 98%; /* Dark text on mint */
+    --destructive: 0 62.8% 30.6%; /* Lighter red for dark mode */
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%; /* Dark border */
+    --input: 0 0% 14.9%; /* Dark input border */
+    --ring: 0 0% 83.1%; /* Focus ring matches primary */ --chart-1: 220 70% 50%; --chart-2: 160 60% 45%; --chart-3: 30 80% 55%; --chart-4: 280 65% 60%; --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom brand color utilities */
+@layer utilities {
+  .text-brand-coral {
+    color: #FF6B6B;
+  }
+  .text-brand-yellow {
+    color: #FFD93D;
+  }
+  .text-brand-mint {
+    color: #6BCB77;
+  }
+  .bg-brand-coral {
+    background-color: #FF6B6B;
+  }
+  .bg-brand-yellow {
+    background-color: #FFD93D;
+  }
+  .bg-brand-mint {
+    background-color: #6BCB77;
+  }
+  .border-brand-coral {
+    border-color: #FF6B6B;
+  }
+  .border-brand-yellow {
+    border-color: #FFD93D;
+  }
+  .border-brand-mint {
+    border-color: #6BCB77;
+  }
+}
