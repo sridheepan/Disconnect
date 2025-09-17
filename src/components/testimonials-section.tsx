@@ -44,7 +44,7 @@ export function TestimonialsSection() {
             What Our Creators Say
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Join thousands of happy crafters who've discovered their creative potential
+            Join thousands of happy crafters who&apos;ve discovered their creative potential
           </p>
         </div>
 
