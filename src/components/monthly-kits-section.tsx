@@ -29,16 +29,17 @@ const kits = [
     description: 'Hand-build and paint your own ceramic bowl using traditional techniques',
     difficulty: 'Beginner',
     time: '4-5 hours',
-    image: '/macrame-wall-hanging.png',
+    image: '/ceramic-pottery-bowl.png',
     price: '$39',
   },
   {
     id: 4,
     title: 'Embroidery Hoop Art',
-    description: 'Create intricate floral embroidery art perfect for home decoration',
+    description:
+      'Create intricate floral embroidery art perfect for home decoration using stiching techniques',
     difficulty: 'Intermediate',
     time: '2-3 hours',
-    image: '/macrame-wall-hanging.png',
+    image: '/hoop-art.png',
     price: '$24',
   },
 ];

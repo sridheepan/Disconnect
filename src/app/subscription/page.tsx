@@ -1,7 +1,19 @@
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion';
 import { Check, Gift } from 'lucide-react';
 
 export default function SubscriptionPage() {
@@ -168,16 +180,9 @@ export default function SubscriptionPage() {
                 Can I cancel my subscription anytime?
               </AccordionTrigger>
               <AccordionContent>
-                Yes, you can cancel your subscription at any time. There are no cancellation fees or long-term commitments. Your subscription will remain active until the end of your current billing period.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value='item-2' className='border rounded-lg px-6'>
-              <AccordionTrigger className='text-left'>
-                What happens to unused UI kits?
-              </AccordionTrigger>
-              <AccordionContent>
-                Unused UI kits don't roll over to the next month, but you'll keep access to all previously downloaded kits forever. We recommend downloading your monthly allocation to build your design library.
+                Yes, you can cancel your subscription at any time. There are no cancellation fees or
+                long-term commitments. Your subscription will remain active until the end of your
+                current billing period.
               </AccordionContent>
             </AccordionItem>
 
@@ -186,34 +191,18 @@ export default function SubscriptionPage() {
                 Can I upgrade or downgrade my plan?
               </AccordionTrigger>
               <AccordionContent>
-                Absolutely! You can upgrade or downgrade your plan at any time. When upgrading, you'll get immediate access to premium features. When downgrading, changes take effect at your next billing cycle.
+                Absolutely! You can upgrade or downgrade your plan at any time. When upgrading,
+                you'll get immediate access to premium features. When downgrading, changes take
+                effect at your next billing cycle.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value='item-4' className='border rounded-lg px-6'>
-              <AccordionTrigger className='text-left'>
-                Do you offer refunds?
-              </AccordionTrigger>
+              <AccordionTrigger className='text-left'>Do you offer refunds?</AccordionTrigger>
               <AccordionContent>
-                We offer a 30-day money-back guarantee for all new subscriptions. If you're not satisfied with our service within the first 30 days, we'll provide a full refund, no questions asked.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value='item-5' className='border rounded-lg px-6'>
-              <AccordionTrigger className='text-left'>
-                What file formats are included?
-              </AccordionTrigger>
-              <AccordionContent>
-                All UI kits include Figma files, Sketch files, Adobe XD files, and exported assets in PNG, SVG, and PDF formats. Premium subscribers also get access to design system documentation and style guides.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value='item-6' className='border rounded-lg px-6'>
-              <AccordionTrigger className='text-left'>
-                Is there a team or enterprise plan?
-              </AccordionTrigger>
-              <AccordionContent>
-                Yes! We offer custom team and enterprise plans with additional features like team collaboration tools, centralized billing, and priority support. Contact our sales team for more information about team pricing.
+                We offer a 30-day money-back guarantee for all new subscriptions. If you're not
+                satisfied with our service within the first 30 days, we'll provide a full refund, no
+                questions asked.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
